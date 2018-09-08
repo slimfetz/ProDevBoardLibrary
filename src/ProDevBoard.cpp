@@ -34,22 +34,22 @@ ProDevBoard::ProDevBoard(int board){  //1=photon 2=electron 3=boron,argon,xenon
   }
 
   if(board == 3){
+      /*
     pinMode(D8,INPUT);
     pinMode(D11,INPUT);
     pinMode(D12,INPUT);
     pinMode(D13,INPUT);
+    */
   }
 
-  if(board == 4){
-    #include "Arduino.h"
-  }
 }
 
-ProDevBoard::ON(int pin){
+bool ProDevBoard::ON(int pin){
   digitalWrite(pin,HIGH);
+  return true;
 }
 
-ProDevBoard::OFF(int pin){
+bool ProDevBoard::OFF(int pin){
   digitalWrite(pin,LOW);
+  return false;
 }
-
