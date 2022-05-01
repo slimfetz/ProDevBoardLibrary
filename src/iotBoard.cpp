@@ -1,23 +1,21 @@
 
-#include "ProDevBoard.h"
-#include "Particle.h"
+#include "iotBoard.h"
+#include "Arduino.h"
 
-ProDevBoard::ProDevBoard(int board){  //1=photon 2=electron 3=boron,argon,xenon
+iotBoard::iotBoard(string boardType){
 
-  pinMode(D0,OUTPUT);
-  pinMode(D1,OUTPUT);
-  pinMode(D2,OUTPUT);
-  pinMode(D3,OUTPUT);
-  pinMode(D4,OUTPUT);
-  pinMode(D5,OUTPUT);
-  pinMode(D6,OUTPUT);
-  pinMode(D7,OUTPUT);
-  pinMode(A0,INPUT);
-  pinMode(A1,INPUT);
-  pinMode(A2,INPUT);
-  pinMode(A3,INPUT);
-  pinMode(A4,INPUT);
-  pinMode(A5,INPUT);
+  pinMode(2,OUTPUT);
+  pinMode(3,OUTPUT);
+  pinMode(4,OUTPUT);
+  pinMode(5,OUTPUT);
+  pinMode(6,OUTPUT);
+  pinMode(7,OUTPUT);
+  pinMode(8,OUTPUT);
+  pinMode(9,OUTPUT);
+  
+  if (boardType == "MKR"){
+    
+  }
   
   if(board == 1 || board == 2){
     pinMode(A6,INPUT);
