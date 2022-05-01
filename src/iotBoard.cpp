@@ -29,4 +29,4 @@ iotBoard::iotBoard(string boardType){
   }
 }
 
-bool input
+bool input(int )
