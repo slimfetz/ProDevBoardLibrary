@@ -1,7 +1,4 @@
 
-#include "iotBoard.h"
-#include "Arduino.h"
-
 iotBoard::iotBoard(string boardType){
   
   if (boardType == "arduinoMKR"){
