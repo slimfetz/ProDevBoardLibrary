@@ -1,15 +1,17 @@
 
 iotBoard::iotBoard(string boardType){
   
+  _boardType = boardType;
+
   if (boardType == "arduinoMKR"){
-    pinMode(D0,OUTPUT);
-    pinMode(D1,OUTPUT);
-    pinMode(D2,OUTPUT);
-    pinMode(D3,OUTPUT);
-    pinMode(D4,OUTPUT);
-    pinMode(D5,OUTPUT);
-    pinMode(D6,OUTPUT);
-    pinMode(D7,OUTPUT);
+    pinMode(0,OUTPUT);
+    pinMode(1,OUTPUT);
+    pinMode(2,OUTPUT);
+    pinMode(3,OUTPUT);
+    pinMode(4,OUTPUT);
+    pinMode(5,OUTPUT);
+    pinMode(6,OUTPUT);
+    pinMode(7,OUTPUT);
     
     pinMode(A0,INPUT);
     pinMode(A1,INPUT);
