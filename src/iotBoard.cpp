@@ -48,7 +48,7 @@ iotBoard::iotBoard(string boardType){
     pinMode(12,INPUT);
   }
   
-  if (boardType == "particlePhoton" || boardType == "particleBoron || boardType == "particleElectron){
+  if (boardType == "particlePhoton" || boardType == "particleBoron || boardType == "particleElectron"){
     pinMode(D0,OUTPUT);
     pinMode(D1,OUTPUT);
     pinMode(D2,OUTPUT);
@@ -64,15 +64,27 @@ iotBoard::iotBoard(string boardType){
     pinMode(A3,INPUT);
     pinMode(A4,INPUT);
     pinMode(A5,INPUT);
+  }
+  
+  if (boardType == "particlePhoton" boardType == "particleElectron){
     pinMode(A6,INPUT);
     pinMode(A7,INPUT);
   }
   
   if (boardType == "particleBoron){
     pinMode(D8,INPUT);
+    pinMode(D11,INPUT);
+    pinMode(D12,INPUT);
+    pinMode(D13,INPUT);
   }  
 }
 
-bool iotBoard::inputDigital(int pinIn, string inputType){
-    pinMode(pinIn, INPUT);
+bool iotBoard::inputDigital(int pinIn){
+  if (digitalRead(pinIn) == HIGH){
+    bool status = true;
+  }
+  else {
+    bool status = false;
+  }
+  return status;
 }
