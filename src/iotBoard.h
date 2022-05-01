@@ -1,6 +1,9 @@
 #ifndef iotBoard_h
 #define iotBoard_h
 
+#include "Arduino.h"
+#include "Particle.h"
+
 class iotBoard{
   public:
     iotBoard(string boardType);
