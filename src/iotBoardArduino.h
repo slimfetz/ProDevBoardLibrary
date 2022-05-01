@@ -2,7 +2,6 @@
 #define iotBoard_h
 
 #include "Arduino.h"
-#include "Particle.h"
 
 class iotBoard{
   public:
