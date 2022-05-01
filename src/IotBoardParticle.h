@@ -1,5 +1,5 @@
-#ifndef iotBoard_h
-#define iotBoard_h
+#ifndef iotBoardParricle_h
+#define iotBoardParticle_h
 
 #include "Particle.h"
 
