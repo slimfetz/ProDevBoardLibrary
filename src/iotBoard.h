@@ -1,5 +1,5 @@
-#ifndef ProDevBoard_h
-#define ProDevBoard_h
+#ifndef iotBoard_h
+#define iotBoard_h
 
 #include "Particle.h"
 #include "Arduino.h"
