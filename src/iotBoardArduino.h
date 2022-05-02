@@ -12,6 +12,7 @@ class iotBoard
  
   private:
     String _boardType;
+    bool digitalReturn;
       
 };
 #endif
