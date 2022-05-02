@@ -7,7 +7,7 @@ class iotBoard
 {
   public:
     iotBoard(String boardType);
-    bool input(int pinIn);
+    bool inputDigital(int pinIn);
     void output(int pinOut);
  
   private:
