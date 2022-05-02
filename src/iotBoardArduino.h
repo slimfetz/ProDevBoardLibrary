@@ -3,10 +3,10 @@
 
 #include "Arduino.h"
 
-class iotBoardArduino
+class iotBoard
 {
   public:
-    iotBoardArduino(String boardType);
+    iotBoard(String boardType);
     bool input(int pinIn);
     void output(int pinOut);
  
