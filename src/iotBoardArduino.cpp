@@ -1,7 +1,7 @@
 #include "Arduino.h"
 #include "iotBoardArduino.h"
 
-iotBoard::iotBoard(string boardType){
+iotBoard::iotBoard(String boardType){
   
   _boardType = boardType;
   
@@ -42,10 +42,10 @@ iotBoard::iotBoard(string boardType){
 
 bool iotBoard::inputDigital(int pinIn){
   if (digitalRead(pinIn) == HIGH){
-    bool status = true;
+    digitalReturn = true;
   }
   else {
-    bool status = false;
+    digitalReturn = false;
   }
-  return status;
+  return digitalReturn;
 }
