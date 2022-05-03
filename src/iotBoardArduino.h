@@ -1,7 +1,5 @@
-#ifndef iotBoardArduino_h
-#define iotBoardArduino_h
-
-#include "Arduino.h"
+#ifndef iotBoard_h
+#define iotBoard_h
 
 class iotBoard
 {
