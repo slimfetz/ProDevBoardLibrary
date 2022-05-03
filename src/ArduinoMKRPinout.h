@@ -14,4 +14,8 @@
   pinMode(A2,INPUT);
   pinMode(A4,INPUT);
   pinMode(A5,INPUT);
-  pinMode(A6,INPUT);
+  pinMode(A6,INPUT)
+  pinMode(8,INPUT);
+  pinMode(9,INPUT);
+  pinMode(10,INPUT);
+  pinMode(11,INPUT);
