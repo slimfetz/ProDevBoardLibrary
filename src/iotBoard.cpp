@@ -1,5 +1,5 @@
 #include "Arduino.h"
-#include "iotBoardArduino.h"
+#include "iotBoard.h"
 
 iotBoard::iotBoard(String boardType){
   
