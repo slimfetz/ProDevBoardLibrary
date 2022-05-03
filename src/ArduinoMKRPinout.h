@@ -1,4 +1,5 @@
-  
+#ifndef iotBoard_h
+#define iotBoard_h
 
   pinMode(0,OUTPUT);
   pinMode(1,OUTPUT);
@@ -19,3 +20,5 @@
   pinMode(9,INPUT);
   pinMode(10,INPUT);
   pinMode(11,INPUT);
+
+#endif
