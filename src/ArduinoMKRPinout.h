@@ -1,5 +1,7 @@
-#ifndef iotBoard_h
-#define iotBoard_h
+#ifndef ArduinoMKRPinout_h
+#define ArduinoMKRPinout_h
+
+#include "Arduino.h"
 
   pinMode(0,OUTPUT);
   pinMode(1,OUTPUT);
