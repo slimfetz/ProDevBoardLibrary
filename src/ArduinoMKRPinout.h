@@ -10,18 +10,18 @@
   _input5 = A4;
   _input6 = A5;
   _input7 = A6;
-  _input8 = XX;
-  _input9 = XX;
-  _input10 = XX;
+  _input8 = 0;
+  _input9 = 1;
+  _input10 = 2;
   
-  _output1 = 0;
-  _output2 = 1;
-  _output3 = 2;
-  _output4 = 3;
-  _output5 = 4;
-  _output6 = 5;
-  _output7 = 6;
-  _output8 = 7;
+  _output1 = 5;
+  _output2 = 6;
+  _output3 = 7;
+  _output4 = 8;
+  _output5 = 9;
+  _output6 = 10;
+  _output7 = 11;
+  _output8 = 12;
 
   pinMode(_input1, INPUT);
   pinMode(_input2, INPUT);
