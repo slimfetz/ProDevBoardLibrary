@@ -15,25 +15,25 @@ class iotBoard
 
     bool _digitalReturn;
 
-    Int _input1;
-    Int _input2;
-    Int _input3;
-    Int _input4;
-    Int _input5;
-    Int _input6;
-    Int _input7;
-    Int _input8;
-    Int _input9;
-    Int _input10;
+    int _input1;
+    int _input2;
+    int _input3;
+    int _input4;
+    int _input5;
+    int _input6;
+    int _input7;
+    int _input8;
+    int _input9;
+    int _input10;
 
-    Int _output1;
-    Int _output2;
-    Int _output3;
-    Int _output4;
-    Int _output5;
-    Int _output6;
-    Int _output7;
-    Int _output8;
+    int _output1;
+    int _output2;
+    int _output3;
+    int _output4;
+    int _output5;
+    int _output6;
+    int _output7;
+    int _output8;
 };
 #endif
 
