@@ -1,5 +1,5 @@
-#ifndef ArduinoMKRSetup_h
-#define ArduinoMKRSetup_h
+#ifndef ArduinoNano33Setup_h
+#define ArduinoNano33Setup_h
 
 #include "Arduino.h"
 
