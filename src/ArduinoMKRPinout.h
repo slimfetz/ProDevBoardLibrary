@@ -3,24 +3,25 @@
 
 #include "Arduino.h"
 
-  pinMode(0,OUTPUT);
-  pinMode(1,OUTPUT);
-  pinMode(2,OUTPUT);
-  pinMode(3,OUTPUT);
-  pinMode(4,OUTPUT);
-  pinMode(5,OUTPUT);
-  pinMode(6,OUTPUT);
-  pinMode(7,OUTPUT);
+  _input1 = A0;
+  _input2 = A1;
+  _input1 = A2;
+  _input1 = A3;
+  _input1 = A4;
+  _input1 = A5;
+  _input1 = A6;
+  _input1 = 8;
+  _input1 = 9;
+  _input1 = 10;
+  _input1 = 11:
   
-  pinMode(A0,INPUT);
-  pinMode(A1,INPUT);
-  pinMode(A2,INPUT);
-  pinMode(A4,INPUT);
-  pinMode(A5,INPUT);
-  pinMode(A6,INPUT)
-  pinMode(8,INPUT);
-  pinMode(9,INPUT);
-  pinMode(10,INPUT);
-  pinMode(11,INPUT);
-
+  _output1 = 0;
+  _output2 = 1;
+  _output3 = 2;
+  _output4 = 3;
+  _output5 = 4;
+  _output6 = 5;
+  _output7 = 6;
+  _output8 = 7;
+  
 #endif
