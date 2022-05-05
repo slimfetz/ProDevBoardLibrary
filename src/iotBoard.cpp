@@ -44,6 +44,7 @@ iotBoard::iotBoard(char boardType[20]){
     _output6 = 7;
     _output7 = 8;
     _output8 = 9;
+    _output9 = 13;
   }
   
   pinMode(_input1, INPUT);
@@ -106,6 +107,41 @@ void iotBoard::relayOn(int pinOut){
     break;
     case 1:
       digitalWrite(_output9, HIGH);
+    break;
+    default:
+    //
+    break;
+  }
+}
+
+void iotBoard::relayOff(int pinOut){
+  switch (pinOut){
+    case 1:
+      digitalWrite(_output1, LOW);
+    break;
+    case 1:
+      digitalWrite(_output2, LOW);
+    break;
+    case 1:
+      digitalWrite(_output3, LOW);
+    break;
+    case 1:
+      digitalWrite(_output4, LOW);
+    break;
+    case 1:
+      digitalWrite(_output5, LOW);
+    break;
+    case 1:
+      digitalWrite(_output6, LOW);
+    break;
+    case 1:
+      digitalWrite(_output7, LOW);
+    break;
+    case 1:
+      digitalWrite(_output8, LOW);
+    break;
+    case 1:
+      digitalWrite(_output9, LOW);
     break;
     default:
     //
