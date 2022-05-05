@@ -1,17 +1,20 @@
 #ifndef iotBoardArduino_h
 #define iotBoardArduino_h
 
+#include "Arduino.h"
+
 class iotBoard
 {
   public:
-    iotBoard(String boardType);
+    iotBoard(char boardType[]);
 
     bool inputDigital(int pinIn);
 
-    void output(int pinOut);
+    void output(int pinOut, int command);
  
   private:
-    String _boardType;
+    char _ArduinoMKR[20] = "_ArduinoMKR";
+    char _ArduinoNano33[20] = "_ArduinoNano33";
 
     bool _digitalReturn;
 
@@ -34,6 +37,6 @@ class iotBoard
     int _output6;
     int _output7;
     int _output8;
+    int _output9;
 };
 #endif
-
