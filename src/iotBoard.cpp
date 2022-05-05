@@ -84,28 +84,28 @@ void iotBoard::relayOn(int pinOut){
     case 1:
       digitalWrite(_output1, HIGH);
     break;
-    case 1:
+    case 2:
       digitalWrite(_output2, HIGH);
     break;
-    case 1:
+    case 3:
       digitalWrite(_output3, HIGH);
     break;
-    case 1:
+    case 4:
       digitalWrite(_output4, HIGH);
     break;
-    case 1:
+    case 5:
       digitalWrite(_output5, HIGH);
     break;
-    case 1:
+    case 6:
       digitalWrite(_output6, HIGH);
     break;
-    case 1:
+    case 7:
       digitalWrite(_output7, HIGH);
     break;
-    case 1:
+    case 8:
       digitalWrite(_output8, HIGH);
     break;
-    case 1:
+    case 9:
       digitalWrite(_output9, HIGH);
     break;
     default:
@@ -119,28 +119,28 @@ void iotBoard::relayOff(int pinOut){
     case 1:
       digitalWrite(_output1, LOW);
     break;
-    case 1:
+    case 2:
       digitalWrite(_output2, LOW);
     break;
-    case 1:
+    case 3:
       digitalWrite(_output3, LOW);
     break;
-    case 1:
+    case 4:
       digitalWrite(_output4, LOW);
     break;
-    case 1:
+    case 5:
       digitalWrite(_output5, LOW);
     break;
-    case 1:
+    case 6:
       digitalWrite(_output6, LOW);
     break;
-    case 1:
+    case 7:
       digitalWrite(_output7, LOW);
     break;
-    case 1:
+    case 8:
       digitalWrite(_output8, LOW);
     break;
-    case 1:
+    case 9:
       digitalWrite(_output9, LOW);
     break;
     default:
