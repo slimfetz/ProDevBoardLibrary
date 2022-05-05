@@ -5,12 +5,6 @@ iotBoard::iotBoard(String boardType){
   
   _boardType = boardType;
   
-  if (boardType == "ArduinoMKR"){
-    #include "ArduinoMKRSetup.h"
-  }
-  else if (boardType == "arduinoNano33"){
-    #include "ArduinoNano33Setup.h"
-  }
 }
 
 bool iotBoard::inputDigital(int pinIn){
