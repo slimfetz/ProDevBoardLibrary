@@ -10,8 +10,8 @@ class iotBoard
 
     bool inputDigital(int pinIn);
 
-    void outputOn(int pinOut);
-    void outputOff(int pinOut);
+    void relayOn(int pinOut);
+    void relayOff(int pinOut);
  
   private:
     char _ArduinoMKR[20] = "_ArduinoMKR";
