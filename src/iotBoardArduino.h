@@ -1,5 +1,5 @@
-#ifndef iotBoard_h
-#define iotBoard_h
+#ifndef iotBoardArduino_h
+#define iotBoardArduino_h
 
 class iotBoard
 {
