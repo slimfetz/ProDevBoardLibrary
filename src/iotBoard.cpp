@@ -3,7 +3,7 @@
 
 iotBoard::iotBoard(char boardType[20]){
   
-  if (boardType == _ArduinoMKR){
+  if (strcmp(boardType , _ArduinoMKR) == 0){
     _input1 = A0;
     _input2 = A1;
     _input3 = A2;
@@ -24,7 +24,7 @@ iotBoard::iotBoard(char boardType[20]){
     _output7 = 6;
     _output8 = 7;
   }
-  else if (boardType == _ArduinoNano33){
+  else if (strcmp(boardType , _ArduinoNano33) == 0){
     _input1 = A0;
     _input2 = A1;
     _input3 = A2;
