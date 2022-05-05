@@ -14,8 +14,8 @@ class iotBoard
     void relayOff(int pinOut);
  
   private:
-    char _ArduinoMKR[20] = "_ArduinoMKR";
-    char _ArduinoNano33[20] = "_ArduinoNano33";
+    char _ArduinoMKR[20] = "ArduinoMKR";
+    char _ArduinoNano33[20] = "ArduinoNano33";
 
     bool _digitalReturn;
 
